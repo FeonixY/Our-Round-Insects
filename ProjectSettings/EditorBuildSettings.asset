@@ -9,14 +9,16 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: 54c3778907f4cab42b9032f76bca0662
   - enabled: 1
-    path: Assets/Scenes/StartScene.unity
-    guid: 5f4017dc2fbd52040879a7cdf8a2654a
+    path: Assets/Scenes/NotebookScene.unity
+    guid: e262e11de1e5c8e45a719ea1f097132d
   - enabled: 1
-    path: Assets/Scenes/MainScene.unity
-    guid: 99c9720ab356a0642a771bea13969a05
+    path: Assets/Scenes/FlowerScene.unity
+    guid: 9a185dfa2e92e5042a7c8e5828cbc4a8
   - enabled: 1
-    path: Assets/Scenes/EndScene.unity
-    guid: cbb9cac8ea4b9ad4eb112bbabf4b0522
+    path: Assets/Scenes/GrassScene.unity
+    guid: 2a4534ca51bc24f4d9ede17ec92db99a
+  - enabled: 1
+    path: Assets/Scenes/NightScene.unity
+    guid: 9e8dae981530edb48af7a4f43602b52e
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
-  m_UseUCBPForAssetBundles: 0

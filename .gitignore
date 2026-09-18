@@ -70,3 +70,29 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# ---- AI / agent tooling (local only, never commit) ----
+# Codex / MCP server config — contains an auth token
+/.codex/
+# Unity MCP agent skill definitions
+/.agents/
+# Other assistant working files
+/.claude/
+/CLAUDE.md
+/AGENTS.md
+/.cursor/
+/.github/copilot-instructions.md
+
+# ---- Local design docs (kept out of the repo by choice) ----
+/Docs/
+
+# ---- IDE ----
+/.idea/
+
+# ---- WebGL build output ----
+/RoundRoundIsland/
+/RoundRoundIsland.zip
+
+# ---- Crash / replay logs ----
+replay_pid*.log
+hs_err_pid*.log

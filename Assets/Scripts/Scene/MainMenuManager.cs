@@ -3,11 +3,25 @@ using UnityEngine.SceneManagement;
 
 public class MainMenuManager : MonoBehaviour
 {
-    private const string StartSceneName = "StartScene";
-
     public void StartGame()
     {
-        SceneManager.LoadScene(StartSceneName);
+        if (GameProgressManager.Instance != null)
+        {
+            GameProgressManager.Instance.ResetProgress();
+            GameProgressManager.Instance.RequestNotebookPage(NotebookPageId.Intro);
+        }
+
+        SceneManager.LoadScene(GameSceneNames.Notebook);
+    }
+
+    public void OpenDictionary()
+    {
+        if (GameProgressManager.Instance != null)
+        {
+            GameProgressManager.Instance.RequestNotebookPage(NotebookPageId.LevelSelect, true);
+        }
+
+        SceneManager.LoadScene(GameSceneNames.Notebook);
     }
 
     public void QuitGame()
